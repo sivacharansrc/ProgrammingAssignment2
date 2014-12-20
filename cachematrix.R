@@ -45,20 +45,19 @@ cacheSolve <- function(x, ...)
    x$setinverse(i)
    i
 }
-cacheSolve(a)
+
 
 ## Calculating the inverse of the matrix
-## a <- makeCacheMatrix( matrix(c(1,2,2,1), nrow = 2, ncol = 2) );
+## a <- makeCacheMatrix( matrix(c(1,2,2,1), 2, 2) );
 ## cacheSolve(a)
 
-## Result Generated in Console Window
+## Inverse calculated and result generated in Console Window
 ## cacheSolve(a)
 ##             [,1]       [,2]
 ## [1,] -0.3333333  0.6666667
 ## [2,]  0.6666667 -0.3333333
 
-## Computing the inverse of the same matrix again retrives the inverse from cache
-## as shown below
+## Computing the inverse of the same matrix again retrives the inverse from cache as shown below
 ## cacheSolve(a)
 ## getting cached data
 ##             [,1]       [,2]
