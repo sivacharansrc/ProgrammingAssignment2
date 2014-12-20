@@ -1,6 +1,6 @@
 ##URL: https://github.com/sivacharansrc/ProgrammingAssignment2
 
-## The functions makeCacheMatrix and cacheSolve are created so as to compute the
+## The functions makeCacheMatrix and cacheSolve are created so as to compute the 
 ## inverse of a matrix
 
 ## The first function "makeCacheMatrix" creates a special "matrix" object which is 
@@ -63,4 +63,3 @@ cacheSolve <- function(x, ...)
 ##             [,1]       [,2]
 ## [1,] -0.3333333  0.6666667
 ## [2,]  0.6666667 -0.3333333
-
